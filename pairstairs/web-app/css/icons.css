@@ -1,0 +1,39 @@
+th.asc a {
+    background-image: url(../images/skin/sorted_asc.gif);
+}
+
+th.desc a {
+    background-image: url(../images/skin/sorted_desc.gif);
+}
+.buttons .delete {
+    background-image: url(../images/skin/database_delete.png);
+}
+
+.buttons .edit {
+    background-image: url(../images/skin/database_edit.png);
+}
+
+.buttons .save {
+    background-image: url(../images/skin/database_save.png);
+}
+.nav a.home {
+    background-image: url(../images/skin/house.png);
+}
+
+.nav a.list {
+    background-image: url(../images/skin/database_table.png);
+}
+
+.nav a.create {
+    background-image: url(../images/skin/database_add.png);
+}
+.errors li {
+    list-style: none;
+    background: transparent url(../images/skin/exclamation.png) 0.5em 50% no-repeat;
+    text-indent: 2.2em;
+}
+
+.message {
+    background: transparent url(../images/skin/information.png) 0.5em 50% no-repeat;
+    text-indent: 2.2em;
+}
