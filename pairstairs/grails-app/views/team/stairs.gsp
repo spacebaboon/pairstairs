@@ -5,6 +5,23 @@
     <meta name="layout" content="main">
     <g:set var="entityName" value="${message(code: 'team.label', default: 'Team')}"/>
     <title><g:message code="default.show.label" args="[entityName]"/></title>
+    <g:javascript library="jquery"/>
+    <r:script language="javascript">
+        $('td.pairing').click(function () {
+
+            if ($(this).text() == 'X') {
+                $(this).text('');
+            } else {
+                $(this).text('X');
+            }
+
+            var col = $(this).parent().children().index($(this));
+            var row = $(this).parent().parent().children().index($(this).parent());
+
+            $('#testtext').load('../togglePairing?col='+col+'&row='+row);
+
+        });
+    </r:script>
 </head>
 
 <body>
@@ -27,12 +44,15 @@
     <table class="table table-bordered table-hover">
         <g:each in="${coders}" var="c" status="i">
             <tr>
-                <g:if test="${i > 0}"><g:each in="${1..i}"><td/></g:each></g:if>
-                <td>${c?.name?.encodeAsHTML()}</td>
+                <g:if test="${i > 0}"><g:each in="${1..i}">
+                </g:each></g:if>
+                <td class="coder">${c?.name?.encodeAsHTML()}</td>
             </tr>
         </g:each>
     </table>
-
 </div>
+
+<div id="testtext"></div>
+
 </body>
 </html>

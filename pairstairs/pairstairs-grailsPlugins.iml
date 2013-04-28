@@ -37,6 +37,7 @@
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/jquery-1.8.3/grails-app/services" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/jquery-1.8.3/grails-app/taglib" isTestSource="false" />
     </content>
+    <content url="file://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/mongodb-1.2.0" />
     <content url="file://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/resources-1.1.6">
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/resources-1.1.6/src/java" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/resources-1.1.6/src/groovy" isTestSource="false" />
@@ -52,7 +53,18 @@
     <orderEntry type="library" scope="PROVIDED" name="grails-2.2.1" level="application" />
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (pairstairs-grailsPlugins)">
-        <CLASSES />
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/com.gmongo/gmongo/jars/gmongo-1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.data/spring-data-mongodb/jars/spring-data-mongodb-1.1.0.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails/grails-datastore-mongo/jars/grails-datastore-mongo-1.2.0.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.mongodb/mongo-java-driver/jars/mongo-java-driver-2.10.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails/grails-datastore-gorm-plugin-support/jars/grails-datastore-gorm-plugin-support-1.1.6.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails/grails-datastore-gorm-mongo/jars/grails-datastore-gorm-mongo-1.2.0.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails/grails-datastore-gorm/jars/grails-datastore-gorm-1.1.6.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails/grails-datastore-web/jars/grails-datastore-web-1.1.6.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.data/spring-data-commons-core/jars/spring-data-commons-core-1.4.0.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails/grails-datastore-core/jars/grails-datastore-core-1.1.6.RELEASE.jar!/" />
+        </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>

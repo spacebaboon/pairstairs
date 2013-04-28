@@ -14,6 +14,23 @@ class TeamController {
         [coders: Coder.list(sort: 'name', order: 'asc')]
     }
 
+    def togglePairing(int col, int row) {
+        def stairs = Team.first().stairs
+        def coders = Coder.list(sort: 'name', order: 'asc')
+        def coder1 = Coder.findByName(coders[col].name)
+        def coder2 = Coder.findByName(coders[row].name)
+
+        def pairing = Pairing.list().find{ it.coders.containsAll([coder1,coder2]) }
+        if (pairing) {
+            stairs.removeFromPairings(pairing)
+            pairing.delete(flush: true)
+            render "removing ${coder1} and ${coder2}"
+        } else {
+            def newPairing = new Pairing(coders: [coder1, coder2]).save()
+            stairs.addToPairings(newPairing)
+            render "pairing ${coder1} and ${coder2}"
+        }
+    }
 
     def list(Integer max) {
         params.max = Math.min(max ?: 10, 100)
@@ -68,8 +85,8 @@ class TeamController {
         if (version != null) {
             if (teamInstance.version > version) {
                 teamInstance.errors.rejectValue("version", "default.optimistic.locking.failure",
-                          [message(code: 'team.label', default: 'Team')] as Object[],
-                          "Another user has updated this Team while you were editing")
+                        [message(code: 'team.label', default: 'Team')] as Object[],
+                        "Another user has updated this Team while you were editing")
                 render(view: "edit", model: [teamInstance: teamInstance])
                 return
             }

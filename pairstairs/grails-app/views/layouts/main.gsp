@@ -19,6 +19,16 @@
 
 <body>
 <div class="container">
+    <div class="page-header">
+        <div class="well">
+            SITE UNDER CONSTRUCTION
+        </div>
+
+        <h1>Pair Stairs</h1>
+
+        <p class="lead">Keep your teams rotating.</p>
+
+    </div>
     <g:layoutBody/>
     <r:layoutResources/>
 </div>
