@@ -18,8 +18,14 @@
             var col = $(this).parent().children().index($(this));
             var row = $(this).parent().parent().children().index($(this).parent());
 
-            $('#testtext').load('../togglePairing?col='+col+'&row='+row);
+            $('#testtext').load('../togglePairing?col=' + col + '&row=' + row);
 
+        });
+
+        $('td.pairing').each(function(){
+            var col = $(this).parent().children().index($(this));
+            var row = $(this).parent().parent().children().index($(this).parent());
+            $(this).load('../showPairing?col=' + col + '&row=' + row);
         });
     </r:script>
 </head>
@@ -42,11 +48,14 @@
     </g:if>
 
     <table class="table table-bordered table-hover">
-        <g:each in="${coders}" var="c" status="i">
+        <g:each in="${coders}" var="coder" status="row">
             <tr>
-                <g:if test="${i > 0}"><g:each in="${1..i}">
-                </g:each></g:if>
-                <td class="coder">${c?.name?.encodeAsHTML()}</td>
+                <g:if test="${row > 0}">
+                    <g:each in="${1..row}">
+                        <td class="pairing"></td>
+                    </g:each>
+                </g:if>
+                <td class="coder">${coder?.name?.encodeAsHTML()}</td>
             </tr>
         </g:each>
     </table>

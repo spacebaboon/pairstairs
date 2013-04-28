@@ -1,8 +1,5 @@
 package uk.co.mb.pairstairs
 
-
-
-import org.junit.*
 import grails.test.mixin.*
 
 @TestFor(TeamController)
@@ -151,5 +148,11 @@ class TeamControllerTests {
         assert Team.count() == 0
         assert Team.get(team.id) == null
         assert response.redirectedUrl == '/team/list'
+    }
+
+    void testBuildPairingsData(){
+        def pairings = [new Pairing()]
+        def pairingsData = controller.buildPairingsData(pairings)
+        assert pairingsData
     }
 }

@@ -14,6 +14,19 @@ class TeamController {
         [coders: Coder.list(sort: 'name', order: 'asc')]
     }
 
+    def showPairing(int col, int row) {
+        def coders = Coder.list(sort: 'name', order: 'asc')
+        def coder1 = Coder.findByName(coders[col].name)
+        def coder2 = Coder.findByName(coders[row].name)
+
+        def pairing = Pairing.list().find{ it.coders.containsAll([coder1,coder2]) }
+        if (pairing) {
+            render 'X'
+        } else {
+            render ''
+        }
+    }
+
     def togglePairing(int col, int row) {
         def stairs = Team.first().stairs
         def coders = Coder.list(sort: 'name', order: 'asc')
