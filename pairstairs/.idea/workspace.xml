@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cca6c55d-f475-427f-9907-6361d0645623" name="Default" comment="more style tweaks">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/uk/co/mb/pairstairs/Coder.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/uk/co/mb/pairstairs/Coder.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/uk/co/mb/pairstairs/CoderController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/uk/co/mb/pairstairs/CoderController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/uk/co/mb/pairstairs/Pairing.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/uk/co/mb/pairstairs/Pairing.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/uk/co/mb/pairstairs/PairingTests.groovy" afterPath="$PROJECT_DIR$/test/unit/uk/co/mb/pairstairs/PairingTests.groovy" />
+    <list default="true" id="cca6c55d-f475-427f-9907-6361d0645623" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/uk/co/mb/pairstairs/TeamController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/uk/co/mb/pairstairs/TeamController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pairstairs-grailsPlugins.iml" afterPath="$PROJECT_DIR$/pairstairs-grailsPlugins.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/css/pairstairs.css" afterPath="$PROJECT_DIR$/web-app/css/pairstairs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pairstairs.iml" afterPath="$PROJECT_DIR$/pairstairs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/team/stairs.gsp" afterPath="$PROJECT_DIR$/grails-app/views/team/stairs.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pairstairs.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
     <file path="/index.gsp" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367059649854" ignored="false" />
-    <file path="/Dummy.txt" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367276443797" ignored="false" />
+    <file path="/Dummy.txt" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367276513124" ignored="false" />
     <file path="/a.dummy" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367272578091" ignored="false" />
     <file path="/Team.groovy" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367177173264" ignored="false" />
     <file path="/Coder.groovy" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367270365931" ignored="false" />
@@ -134,10 +123,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pairstairs.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pairstairs.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/css/pairstairs.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="16" selection-start="807" selection-end="807" vertical-scroll-proportion="0.59302324">
+            <state line="37" column="1" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -181,10 +170,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeamController.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TeamController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/uk/co/mb/pairstairs/TeamController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="43" selection-start="1283" selection-end="1283" vertical-scroll-proportion="-11.434783">
+            <state line="32" column="0" selection-start="988" selection-end="988" vertical-scroll-proportion="0.31421745">
               <folding>
                 <element signature="e#29#58#0" expanded="true" />
               </folding>
@@ -280,8 +269,8 @@
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/uk/co/mb/pairstairs/Pairing.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/team/stairs.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/uk/co/mb/pairstairs/TeamController.groovy" />
         <option value="$PROJECT_DIR$/web-app/css/pairstairs.css" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/uk/co/mb/pairstairs/TeamController.groovy" />
       </list>
     </option>
   </component>
@@ -976,7 +965,11 @@
       <created>1367194261894</created>
       <updated>1367194261894</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="UI improvements: table columns and rows highlighted on hover. Store date for pairing. Show today's and older pairings in different colour. Tooltip to show pairing date.">
+      <created>1367276519967</created>
+      <updated>1367276519967</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -998,6 +991,7 @@
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330033" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1010,7 +1004,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330033" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1056,7 +1049,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="more style tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI improvements: table columns and rows highlighted on hover. Store date for pairing. Show today's and older pairings in different colour. Tooltip to show pairing date." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1074,6 +1067,7 @@
     <MESSAGE value="load persisted values for pairing cells on page load." />
     <MESSAGE value="style improvements." />
     <MESSAGE value="more style tweaks" />
+    <MESSAGE value="UI improvements: table columns and rows highlighted on hover. Store date for pairing. Show today's and older pairings in different colour. Tooltip to show pairing date." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1214,19 +1208,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/uk/co/mb/pairstairs/TeamController.groovy">
+    <entry file="file://$PROJECT_DIR$/web-app/css/pairstairs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="43" selection-start="1283" selection-end="1283" vertical-scroll-proportion="-11.434783">
-          <folding>
-            <element signature="e#29#58#0" expanded="true" />
-          </folding>
+        <state line="37" column="1" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/css/pairstairs.css">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/uk/co/mb/pairstairs/TeamController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="16" selection-start="807" selection-end="807" vertical-scroll-proportion="0.59302324">
-          <folding />
+        <state line="32" column="0" selection-start="988" selection-end="988" vertical-scroll-proportion="0.31421745">
+          <folding>
+            <element signature="e#29#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

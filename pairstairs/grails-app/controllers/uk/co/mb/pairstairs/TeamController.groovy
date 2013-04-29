@@ -31,14 +31,6 @@ class TeamController {
         return Pairing.list().find { it.coders.containsAll(findCoders(col, row)) }
     }
 
-    def showPairingDate(int col, int row) {
-        def pairing = findPairing(col, row)
-        if (pairing) {
-            render fmt.print(pairing.date)
-        } else {
-            render ''
-        }
-    }
 
     def showPairing(int col, int row) {
 
