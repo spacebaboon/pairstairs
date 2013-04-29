@@ -27,7 +27,7 @@ class CoderController {
         }
 
         flash.message = message(code: 'default.created.message', args: [message(code: 'coder.label', default: 'Coder'), coderInstance.id])
-        redirect(action: "show", id: coderInstance.id)
+        redirect(action: "list")
     }
 
     def show(Long id) {

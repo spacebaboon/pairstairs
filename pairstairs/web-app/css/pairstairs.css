@@ -18,3 +18,21 @@
     color: #000000;
 
 }
+
+.hovercoder { background-color: #f8f8f8; }
+.hoverpairing { background-color: #eeffee; }
+
+.days-old-0 {font-size: 25px; color: blue; }
+.days-old-1 {font-size: 25px; color: #555; }
+.days-old-2 {font-size: 25px; color: #333; }
+.days-old-3 {font-size: 25px; color: #111; }
+
+.tooltip {
+    display:none;
+    background:transparent url(http://jquerytools.org/media/img/tooltip/black_arrow.png);
+    font-size:12px;
+    height:70px;
+    width:160px;
+    padding:25px;
+    color:#eee;
+}

@@ -6,6 +6,7 @@
         <webroots>
           <root url="file://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/database-migration-1.3.2/grails-app/views" relative="/" />
           <root url="file://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/jquery-1.8.3/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/joda-time-1.4/grails-app/views" relative="/" />
         </webroots>
         <sourceRoots />
       </configuration>
@@ -31,6 +32,10 @@
     <content url="file://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/hibernate-2.2.1">
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/hibernate-2.2.1/grails-app/i18n" isTestSource="false" />
     </content>
+    <content url="file://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/joda-time-1.4">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/joda-time-1.4/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/joda-time-1.4/grails-app/taglib" isTestSource="false" />
+    </content>
     <content url="file://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/jquery-1.8.3">
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/jquery-1.8.3/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/jquery-1.8.3/grails-app/i18n" isTestSource="false" />
@@ -54,6 +59,7 @@
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (pairstairs-grailsPlugins)">
         <CLASSES>
+          <root url="file://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/joda-time-1.4/lib" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/com.gmongo/gmongo/jars/gmongo-1.0.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.data/spring-data-mongodb/jars/spring-data-mongodb-1.1.0.RELEASE.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails/grails-datastore-mongo/jars/grails-datastore-mongo-1.2.0.RELEASE.jar!/" />
@@ -64,9 +70,12 @@
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails/grails-datastore-web/jars/grails-datastore-web-1.1.6.RELEASE.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.data/spring-data-commons-core/jars/spring-data-commons-core-1.4.0.RELEASE.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails/grails-datastore-core/jars/grails-datastore-core-1.1.6.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.jadira.usertype/usertype.spi/jars/usertype.spi-1.9.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.jadira.usertype/usertype.jodatime/jars/usertype.jodatime-1.9.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/joda-time-1.4/lib" recursive="false" />
       </library>
     </orderEntry>
   </component>
