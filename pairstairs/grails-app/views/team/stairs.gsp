@@ -22,7 +22,7 @@
 
         });
 
-        $('td.pairing').each(function(){
+        $('td.pairing').each(function () {
             var col = $(this).parent().children().index($(this));
             var row = $(this).parent().parent().children().index($(this).parent());
             $(this).load('../showPairing?col=' + col + '&row=' + row);
@@ -32,13 +32,16 @@
 
 <body>
 
-<div class="nav" role="navigation">
-    <ul>
-        <li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
-        <li><g:link class="list" action="list"><g:message code="default.list.label" args="[entityName]"/></g:link></li>
-        <li><g:link class="create" action="create"><g:message code="default.new.label"
+<div class="navbar" role="navigation">
+    <div class="navbar-inner">
+        <ul class="nav">
+            <li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
+            <li><g:link class="list" action="list"><g:message code="default.list.label"
                                                               args="[entityName]"/></g:link></li>
-    </ul>
+            <li><g:link class="create" action="create"><g:message code="default.new.label"
+                                                                  args="[entityName]"/></g:link></li>
+        </ul>
+    </div>
 </div>
 
 <div id="show-team" class="content scaffold-show" role="main">
@@ -47,7 +50,7 @@
         <div class="message" role="status">${flash.message}</div>
     </g:if>
 
-    <table class="table table-bordered table-hover">
+    <table class="table table-hover">
         <g:each in="${coders}" var="coder" status="row">
             <tr>
                 <g:if test="${row > 0}">
