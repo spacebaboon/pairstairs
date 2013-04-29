@@ -38,19 +38,15 @@
             <li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
             <li><g:link class="list" action="list"><g:message code="default.list.label"
                                                               args="[entityName]"/></g:link></li>
-            <li><g:link class="create" action="create"><g:message code="default.new.label"
-                                                                  args="[entityName]"/></g:link></li>
+            <li><g:link class="list" controller="coder" action="list"><g:message code="coder.list.label"
+                                                                                 args="[entityName]"/></g:link></li>
         </ul>
     </div>
 </div>
 
 <div id="show-team" class="content scaffold-show" role="main">
-    <h1><g:message code="default.show.label" args="[entityName]"/></h1>
-    <g:if test="${flash.message}">
-        <div class="message" role="status">${flash.message}</div>
-    </g:if>
 
-    <table class="table table-hover">
+    <table class="table">
         <g:each in="${coders}" var="coder" status="row">
             <tr>
                 <g:if test="${row > 0}">
