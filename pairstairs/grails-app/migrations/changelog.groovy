@@ -1,24 +1,6 @@
 databaseChangeLog = {
 
-	changeSet(author: "ben (generated)", id: "1367347255359-1") {
-		createTable(tableName: "coder") {
-			column(autoIncrement: "true", name: "id", type: "bigint") {
-				constraints(nullable: "false", primaryKey: "true", primaryKeyName: "coderPK")
-			}
-
-			column(name: "version", type: "bigint") {
-				constraints(nullable: "false")
-			}
-
-			column(name: "avatar_url", type: "varchar(255)")
-
-			column(name: "name", type: "varchar(255)") {
-				constraints(nullable: "false")
-			}
-		}
-	}
-
-	changeSet(author: "ben (generated)", id: "1367347255359-2") {
+	changeSet(author: "ben", id: "1367347255359-2") {
 		createTable(tableName: "pairing") {
 			column(autoIncrement: "true", name: "id", type: "bigint") {
 				constraints(nullable: "false", primaryKey: "true", primaryKeyName: "pairingPK")
@@ -129,4 +111,6 @@ databaseChangeLog = {
 	changeSet(author: "ben (generated)", id: "1367347255359-14") {
 		addForeignKeyConstraint(baseColumnNames: "team_coders_id", baseTableName: "team_coder", constraintName: "FKBA63BBC3B9652C42", deferrable: "false", initiallyDeferred: "false", referencedColumnNames: "id", referencedTableName: "team", referencesUniqueColumn: "false")
 	}
+
+	include file: 'add-date-to-pairing.groovy'
 }
