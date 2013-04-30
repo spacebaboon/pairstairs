@@ -109,3 +109,4 @@ grails.gorm.default.mapping = {
 
 grails.plugin.databasemigration.updateOnStart = true
 grails.plugin.databasemigration.updateOnStartFileNames = ['changelog.groovy']
+grails.plugin.databasemigration.dbDocController.enabled = true
