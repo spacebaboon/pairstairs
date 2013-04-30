@@ -3,21 +3,19 @@ package uk.co.mb.pairstairs
 import org.joda.time.DateMidnight
 import org.joda.time.DateTime
 import org.joda.time.Days
-import org.joda.time.LocalDate
-import org.joda.time.LocalDateTime
 
 class Pairing {
 
-    DateTime date
-    DateTime date2
+    DateTime pairingDate
 
     static hasMany = [coders: Coder]
 
     static constraints = {
+        pairingDate(nullable: true)
     }
 
     int daysAgo() {
-        Days.daysBetween(new DateMidnight(date), new DateMidnight()).getDays()
+        Days.daysBetween(new DateMidnight(pairingDate), new DateMidnight()).getDays()
     }
 
     String toString() {

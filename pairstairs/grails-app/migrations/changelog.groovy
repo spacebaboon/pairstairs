@@ -1,4 +1,4 @@
 databaseChangeLog = {
 
-	include file: 'add-date-to-pairing.groovy'
+//	include file: 'add-pairingDate-to-pairing.groovy'
 }

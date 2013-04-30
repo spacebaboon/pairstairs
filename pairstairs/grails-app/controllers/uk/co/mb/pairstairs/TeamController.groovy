@@ -1,7 +1,6 @@
 package uk.co.mb.pairstairs
 
 import org.joda.time.DateTime
-import org.joda.time.LocalDateTime
 import org.joda.time.format.DateTimeFormat
 import org.joda.time.format.DateTimeFormatter
 import org.springframework.dao.DataIntegrityViolationException
@@ -36,7 +35,7 @@ class TeamController {
 
         def pairing = findPairing(col, row)
         if (pairing) {
-            def when = (pairing.daysAgo() == 0) ? "Today" : fmt.print(pairing.date)
+            def when = (pairing.daysAgo() == 0) ? "Today" : fmt.print(pairing.pairingDate)
             render "<span class='show-age days-old-${pairing.daysAgo()}' title='${when}'>X</span>"
         } else {
             render ''
@@ -53,7 +52,7 @@ class TeamController {
             pairing.delete(flush: true)
             render "removing ${pairing}"
         } else {
-            def newPairing = new Pairing(coders: findCoders(col, row), date: new DateTime()).save()
+            def newPairing = new Pairing(coders: findCoders(col, row), pairingDate: new DateTime()).save()
             stairs.addToPairings(newPairing)
             render "pairing ${newPairing}"
         }

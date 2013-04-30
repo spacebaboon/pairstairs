@@ -1,18 +1,19 @@
 databaseChangeLog = {
 
-    changeSet(author: "ben", id: "add-date-to_pairing") {
+    changeSet(author: "ben", id: "add-pairingDate-to-pairing") {
+
         addColumn(tableName: "pairing") {
-            column(name: "date", type: "timestamp")
+            column(name: "pairingDate", type: "timestamp")
         }
 
         grailsChange {
             change {
-                sql.execute("UPDATE pairing SET date = NOW()")
+                sql.execute("UPDATE pairing SET pairingDate = NOW()")
             }
             rollback {
             }
         }
 
-        addNotNullConstraint(tableName: "paairing", columnName: "date")
+        addNotNullConstraint(tableName: "pairing", columnName: "pairingDate")
     }
 }
