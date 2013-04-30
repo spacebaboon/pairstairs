@@ -9,6 +9,7 @@ import org.joda.time.LocalDateTime
 class Pairing {
 
     DateTime date
+    DateTime date2
 
     static hasMany = [coders: Coder]
 

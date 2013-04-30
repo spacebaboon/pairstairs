@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cca6c55d-f475-427f-9907-6361d0645623" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/uk/co/mb/pairstairs/TeamController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/uk/co/mb/pairstairs/TeamController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/migrations/changelog.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/uk/co/mb/pairstairs/Pairing.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/uk/co/mb/pairstairs/Pairing.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pairstairs.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
-    <file path="/index.gsp" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367059649854" ignored="false" />
-    <file path="/Dummy.txt" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367276513124" ignored="false" />
-    <file path="/a.dummy" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367272578091" ignored="false" />
+    <file path="/index.gsp" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367353719033" ignored="false" />
+    <file path="/Dummy.txt" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367353437711" ignored="false" />
+    <file path="/a.dummy" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367352071319" ignored="false" />
     <file path="/Team.groovy" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367177173264" ignored="false" />
     <file path="/Coder.groovy" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367270365931" ignored="false" />
     <file path="/TeamController.groovy" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367275933580" ignored="false" />
@@ -54,6 +57,10 @@
     <file path="/pairstairs.css" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367273959840" ignored="false" />
     <file path="/CoderController.groovy" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367261275891" ignored="false" />
     <file path="/PairingTests.groovy" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367268769955" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Salary-Calculator/grails-app/conf/DataSource.groovy" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367351915482" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Salary-Calculator/application.properties" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367352216394" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Salary-Calculator/grails-app/views/calculator/index.gsp" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367353721443" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Salary-Calculator/.idea/workspace.xml" changelist="cca6c55d-f475-427f-9907-6361d0645623" time="1367357303935" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +75,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -104,7 +112,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -132,21 +139,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pairing.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Pairing.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/uk/co/mb/pairstairs/Pairing.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="8" selection-start="302" selection-end="302" vertical-scroll-proportion="-11.086957">
-              <folding>
-                <element signature="e#29#62#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DateMidnight.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/joda-time-1.4/lib/joda-time-2.0.jar!/org/joda/time/DateMidnight.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="11" selection-start="1421" selection-end="1421" vertical-scroll-proportion="-7.48">
+            <state line="11" column="18" selection-start="239" selection-end="239" vertical-scroll-proportion="0.12544803">
               <folding />
             </state>
           </provider>
@@ -164,16 +160,16 @@
       <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="0" selection-start="5363" selection-end="5363" vertical-scroll-proportion="0.0">
+            <state line="110" column="77" selection-start="5494" selection-end="5494" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeamController.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TeamController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/uk/co/mb/pairstairs/TeamController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="988" selection-end="988" vertical-scroll-proportion="0.31421745">
+            <state line="32" column="0" selection-start="988" selection-end="988" vertical-scroll-proportion="-0.65217394">
               <folding>
                 <element signature="e#29#58#0" expanded="true" />
               </folding>
@@ -181,19 +177,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DispatcherServlet.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gvm/grails/current/lib/org.springframework/spring-webmvc/jars/spring-webmvc-3.1.4.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <file leaf-file-name="changelog.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/migrations/changelog.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="156" selection-start="8735" selection-end="8735" vertical-scroll-proportion="-14.52">
+            <state line="30" column="53" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Coder.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/uk/co/mb/pairstairs/Coder.groovy">
+      <file leaf-file-name="changelog_bkp.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/migrations/changelog_bkp.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="44" selection-start="194" selection-end="194" vertical-scroll-proportion="-5.869565">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSource.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="80" selection-start="782" selection-end="844" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -202,7 +207,7 @@
       <file leaf-file-name="stairs.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/team/stairs.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="83" selection-start="999" selection-end="999" vertical-scroll-proportion="-5.744681">
+            <state line="7" column="40" selection-start="288" selection-end="320" vertical-scroll-proportion="-2.2340426">
               <folding>
                 <marker date="1367275946936" expanded="true" signature="566:2334" placeholder="&lt;xml/&gt;" />
                 <marker date="1367275946936" expanded="true" signature="645:1091" placeholder="{...}" />
@@ -219,19 +224,9 @@
                 <marker date="1367275946936" expanded="true" signature="2344:2982" placeholder="&lt;xml/&gt;" />
                 <marker date="1367275946936" expanded="true" signature="2344:2989" placeholder="&lt;xml/&gt;" />
                 <marker date="1367275946936" expanded="true" signature="2387:2982" placeholder="&lt;xml/&gt;" />
-                <marker date="1367275946936" expanded="true" signature="2387:2982" placeholder="&lt;xml/&gt;" />
-                <marker date="1367275946936" expanded="true" signature="2387:2982" placeholder="&lt;xml/&gt;" />
-                <marker date="1367275946936" expanded="true" signature="2387:2982" placeholder="&lt;xml/&gt;" />
                 <marker date="1367275946936" expanded="true" signature="2387:2971" placeholder="&lt;xml/&gt;" />
                 <marker date="1367275946936" expanded="true" signature="2422:2971" placeholder="&lt;xml/&gt;" />
-                <marker date="1367275946936" expanded="true" signature="2422:2971" placeholder="&lt;xml/&gt;" />
-                <marker date="1367275946936" expanded="true" signature="2422:2971" placeholder="&lt;xml/&gt;" />
-                <marker date="1367275946936" expanded="true" signature="2422:2971" placeholder="&lt;xml/&gt;" />
                 <marker date="1367275946936" expanded="true" signature="3059:3554" placeholder="&lt;xml/&gt;" />
-                <marker date="1367275946936" expanded="true" signature="3059:3554" placeholder="&lt;xml/&gt;" />
-                <marker date="1367275946936" expanded="true" signature="3059:3554" placeholder="&lt;xml/&gt;" />
-                <marker date="1367275946936" expanded="true" signature="3059:3554" placeholder="&lt;xml/&gt;" />
-                <marker date="1367275946936" expanded="true" signature="3546:3561" placeholder="&lt;xml/&gt;" />
               </folding>
             </state>
           </provider>
@@ -255,8 +250,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/views/coder/create.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/coder/edit.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/coder/list.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/coder/show.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/team/show.gsp" />
@@ -266,11 +259,13 @@
         <option value="$PROJECT_DIR$/test/unit/uk/co/mb/pairstairs/PairingTests.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/uk/co/mb/pairstairs/Coder.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/uk/co/mb/pairstairs/Pairing.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/team/stairs.gsp" />
         <option value="$PROJECT_DIR$/web-app/css/pairstairs.css" />
         <option value="$PROJECT_DIR$/grails-app/controllers/uk/co/mb/pairstairs/TeamController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/migrations/changelog.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/uk/co/mb/pairstairs/Pairing.groovy" />
       </list>
     </option>
   </component>
@@ -305,6 +300,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -529,6 +526,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pairstairs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pairstairs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -597,68 +612,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="joda-time-1.4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pairstairs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pairstairs-grailsPlugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joda-time-1.4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joda-time-2.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="time" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pairstairs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pairstairs-grailsPlugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joda-time-1.4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joda-time-2.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pairstairs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pairstairs-grailsPlugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="hibernate-2.2.1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -687,8 +640,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -707,18 +658,19 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="uk.co.mb.pairstairs" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/grails-app/migrations" />
       <recent name="$PROJECT_DIR$/web-app/css" />
       <recent name="$PROJECT_DIR$/grails-app/views/team" />
     </key>
@@ -781,6 +733,15 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -797,19 +758,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -838,6 +786,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -969,7 +930,11 @@
       <created>1367276519967</created>
       <updated>1367276519967</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="remove old method">
+      <created>1367276542502</created>
+      <updated>1367276542502</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -980,18 +945,15 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933994" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32673267" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330033" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1001,9 +963,12 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30789754" sideWeight="0.6006601" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32673267" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330033" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1049,7 +1014,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI improvements: table columns and rows highlighted on hover. Store date for pairing. Show today's and older pairings in different colour. Tooltip to show pairing date." />
+    <option name="LAST_COMMIT_MESSAGE" value="remove old method" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1068,44 +1033,20 @@
     <MESSAGE value="style improvements." />
     <MESSAGE value="more style tweaks" />
     <MESSAGE value="UI improvements: table columns and rows highlighted on hover. Store date for pairing. Show today's and older pairings in different colour. Tooltip to show pairing date." />
+    <MESSAGE value="remove old method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/uk/co/mb/pairstairs/CoderController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="41" selection-start="1300" selection-end="1300" vertical-scroll-proportion="-28.695652">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/css/spacelab-bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2005" column="6" selection-start="36205" selection-end="36211" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gvm/grails/current/lib/org.codehaus.groovy/groovy-all/jars/groovy-all-2.0.7-sources.jar!/org/codehaus/groovy/runtime/DateGroovyMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="471" column="34" selection-start="14662" selection-end="14662" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/joda-time-1.4/lib/joda-time-2.0.jar!/org/joda/time/Days.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="162" selection-end="162" vertical-scroll-proportion="0.089605734">
-          <folding />
-        </state>
+        <state line="6" column="19" selection-start="162" selection-end="162" vertical-scroll-proportion="0.089605734" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/joda-time-1.4/lib/joda-time-2.0.jar!/org/joda/time/LocalDate.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="162" selection-end="162" vertical-scroll-proportion="0.089605734">
-          <folding />
-        </state>
+        <state line="6" column="19" selection-start="162" selection-end="162" vertical-scroll-proportion="0.089605734" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/uk/co/mb/pairstairs/PairingTests.groovy">
@@ -1117,24 +1058,24 @@
     </entry>
     <entry file="jar://$USER_HOME$/.grails/2.2.1/projects/pairstairs/plugins/joda-time-1.4/lib/joda-time-2.0.jar!/org/joda/time/DateMidnight.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="11" selection-start="1421" selection-end="1421" vertical-scroll-proportion="-7.48">
+        <state line="32" column="11" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/uk/co/mb/pairstairs/Coder.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="44" selection-start="194" selection-end="194" vertical-scroll-proportion="-5.869565">
+        <state line="9" column="44" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gvm/grails/current/lib/org.springframework/spring-webmvc/jars/spring-webmvc-3.1.4.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="156" selection-start="8735" selection-end="8735" vertical-scroll-proportion="-14.52">
+        <state line="121" column="156" selection-start="8735" selection-end="8735" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1146,9 +1087,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+    <entry file="file://$PROJECT_DIR$/web-app/css/pairstairs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="0" selection-start="5363" selection-end="5363" vertical-scroll-proportion="0.0">
+        <state line="37" column="1" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/uk/co/mb/pairstairs/TeamController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="988" selection-end="988" vertical-scroll-proportion="-0.65217394">
+          <folding>
+            <element signature="e#29#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="80" selection-start="782" selection-end="844" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1162,7 +1119,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/team/stairs.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="83" selection-start="999" selection-end="999" vertical-scroll-proportion="-5.744681">
+        <state line="7" column="40" selection-start="288" selection-end="320" vertical-scroll-proportion="-2.2340426">
           <folding>
             <marker date="1367275946936" expanded="true" signature="566:2334" placeholder="&lt;xml/&gt;" />
             <marker date="1367275946936" expanded="true" signature="645:1091" placeholder="{...}" />
@@ -1179,49 +1136,42 @@
             <marker date="1367275946936" expanded="true" signature="2344:2982" placeholder="&lt;xml/&gt;" />
             <marker date="1367275946936" expanded="true" signature="2344:2989" placeholder="&lt;xml/&gt;" />
             <marker date="1367275946936" expanded="true" signature="2387:2982" placeholder="&lt;xml/&gt;" />
-            <marker date="1367275946936" expanded="true" signature="2387:2982" placeholder="&lt;xml/&gt;" />
-            <marker date="1367275946936" expanded="true" signature="2387:2982" placeholder="&lt;xml/&gt;" />
-            <marker date="1367275946936" expanded="true" signature="2387:2982" placeholder="&lt;xml/&gt;" />
             <marker date="1367275946936" expanded="true" signature="2387:2971" placeholder="&lt;xml/&gt;" />
             <marker date="1367275946936" expanded="true" signature="2422:2971" placeholder="&lt;xml/&gt;" />
-            <marker date="1367275946936" expanded="true" signature="2422:2971" placeholder="&lt;xml/&gt;" />
-            <marker date="1367275946936" expanded="true" signature="2422:2971" placeholder="&lt;xml/&gt;" />
-            <marker date="1367275946936" expanded="true" signature="2422:2971" placeholder="&lt;xml/&gt;" />
             <marker date="1367275946936" expanded="true" signature="3059:3554" placeholder="&lt;xml/&gt;" />
-            <marker date="1367275946936" expanded="true" signature="3059:3554" placeholder="&lt;xml/&gt;" />
-            <marker date="1367275946936" expanded="true" signature="3059:3554" placeholder="&lt;xml/&gt;" />
-            <marker date="1367275946936" expanded="true" signature="3059:3554" placeholder="&lt;xml/&gt;" />
-            <marker date="1367275946936" expanded="true" signature="3546:3561" placeholder="&lt;xml/&gt;" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/uk/co/mb/pairstairs/Pairing.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="302" selection-end="302" vertical-scroll-proportion="-11.086957">
-          <folding>
-            <element signature="e#29#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/css/pairstairs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="1" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
+        <state line="110" column="77" selection-start="5494" selection-end="5494" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/uk/co/mb/pairstairs/TeamController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/migrations/changelog.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="988" selection-end="988" vertical-scroll-proportion="0.31421745">
-          <folding>
-            <element signature="e#29#58#0" expanded="true" />
-          </folding>
+        <state line="30" column="53" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/migrations/changelog_bkp.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/uk/co/mb/pairstairs/Pairing.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="239" selection-end="239" vertical-scroll-proportion="0.12544803">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>
