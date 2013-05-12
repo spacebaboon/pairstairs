@@ -1,5 +1,6 @@
 package uk.co.mb.pairstairs
 
+import grails.converters.JSON
 import org.joda.time.DateTime
 import org.joda.time.format.DateTimeFormat
 import org.joda.time.format.DateTimeFormatter
@@ -17,6 +18,15 @@ class TeamController {
 
     def stairs() {
         [coders: Coder.list(sort: 'name', order: 'asc')]
+    }
+
+    def angular() {
+
+    }
+
+    def pairings() {
+        JSON.use('deep')
+        render Pairing.list() as JSON
     }
 
     private Set<Coder> findCoders(int col, int row) {
